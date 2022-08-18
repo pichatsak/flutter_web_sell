@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web_sell/home/mainhome.dart';
 import 'package:flutter_web_sell/login_registor/main_login.dart';
 import 'package:flutter_web_sell/shop_cart/main_shop_cart.dart';
+import 'package:flutter_web_sell/show_shop/main_show_shop.dart';
+import 'package:flutter_web_sell/sipping/main_shipping.dart';
 
 
 void main() {
@@ -37,6 +39,8 @@ class MyApp extends StatelessWidget {
         "/": (context) => MyHomePage(),
         "/login": (context) => const ManiLogin(),
         "/shop_cart": (context) => const ShopCart(),
+        "/shipping": (context) => const MainShipPing(),
+        "/showshop": (context) => const MainShowShop(),
       },
     );
   }

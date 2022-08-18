@@ -60,7 +60,7 @@ Widget animation() {
             height: 100,
             width: 100,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(10)));
       },
       fromX: 300,
@@ -80,7 +80,7 @@ Widget animation1() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 500,
@@ -100,7 +100,7 @@ Widget animation2() {
             height: 50,
             width: 50,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(7)));
       },
       fromX: 700,
@@ -120,7 +120,7 @@ Widget animation3() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 1100,
@@ -140,7 +140,7 @@ Widget animation4() {
             height: 70,
             width: 70,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(7)));
       },
       fromX: 1300,
@@ -160,7 +160,7 @@ Widget animation5() {
             height: 40,
             width: 40,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(7)));
       },
       fromX: 1500,
@@ -180,7 +180,7 @@ Widget animation6() {
             height: 100,
             width: 100,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(7)));
       },
       fromX: 1700,
@@ -200,7 +200,7 @@ Widget animation7() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 1600,
@@ -220,7 +220,7 @@ Widget animation8() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 150,
@@ -243,7 +243,7 @@ Widget animation9() {
             height: 30,
             width: 30,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 450,
@@ -263,7 +263,7 @@ Widget animation10() {
             height: 30,
             width: 30,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 600,
@@ -283,7 +283,7 @@ Widget animation11() {
             height: 25,
             width: 25,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 800,
@@ -303,7 +303,7 @@ Widget animation12() {
             height: 15,
             width: 15,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 1200,
@@ -323,7 +323,7 @@ Widget animation13() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 900,
@@ -343,7 +343,7 @@ Widget animation14() {
             height: 40,
             width: 40,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 1870,
@@ -363,7 +363,7 @@ Widget animation15() {
             height: 35,
             width: 35,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 100,
@@ -383,7 +383,7 @@ Widget animation16() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 1000,
@@ -403,7 +403,7 @@ Widget animation17() {
             height: 20,
             width: 20,
             decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 33, 37, 243),
+                color: const Color.fromARGB(94, 0, 149, 255),
                 borderRadius: BorderRadius.circular(5)));
       },
       fromX: 1070,

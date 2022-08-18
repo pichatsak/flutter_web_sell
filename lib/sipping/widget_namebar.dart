@@ -5,7 +5,7 @@ import 'package:flutter_web_sell/other/painter_pro.dart';
 import 'package:flutter_web_sell/shop_cart/on_hover.dart';
 
 var color = Colors.transparent;
-Widget namebarshopcart(context) {
+Widget namebarshipping(context) {
   return SizedBox(
       height: 230,
       child: ClipPath(
@@ -48,7 +48,7 @@ Widget namebarshopcart(context) {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const Text(
-                        "ตะกร้าสินค้า",
+                        "สินค้าน่าชิป",
                         style: TextStyle(
                             fontSize: 29,
                             color: Color(0xff39404a),
@@ -80,7 +80,7 @@ Widget namebarshopcart(context) {
                                         fontSize: 16,
                                         color: Color.fromARGB(153, 0, 0, 0)))),
                             const Text(
-                              "ตะกร้า",
+                              "สินค้าน่าชิป",
                               style: TextStyle(
                                   fontSize: 15,
                                   color: Color.fromARGB(153, 0, 0, 0)),

@@ -68,7 +68,8 @@ Widget desktopView(BuildContext context) {
                                     Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => const ManiLogin()),
+                                          builder: (context) =>
+                                              const ManiLogin()),
                                     );
                                   },
                                   child: Row(
@@ -214,25 +215,37 @@ Widget desktopView(BuildContext context) {
                                     color: Colors.black,
                                     fontWeight: FontWeight.bold),
                               ),
-                              const Padding(
-                                padding: EdgeInsets.only(left: 35, right: 35),
-                                child: Text(
-                                  "สินค้าน่าชิป",
-                                  style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.black,
-                                      fontWeight: FontWeight.bold),
+                              Padding(
+                                padding:
+                                    const EdgeInsets.only(left: 35, right: 35),
+                                child: InkWell(
+                                  onTap: () {
+                                    Navigator.of(context)
+                                        .pushNamed("/shipping");
+                                  },
+                                  child: const Text(
+                                    "สินค้าน่าชิป",
+                                    style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold),
+                                  ),
                                 ),
                               ),
                               // ignore: prefer_const_constructors
                               Padding(
                                 padding: const EdgeInsets.only(right: 35),
-                                child: const Text(
-                                  "สินค้าน่าช้อป",
-                                  style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.black,
-                                      fontWeight: FontWeight.bold),
+                                child: InkWell(onTap: () {
+                                  Navigator.of(context)
+                                        .pushNamed("/showshop");
+                                },
+                                  child: const Text(
+                                    "สินค้าน่าช้อป",
+                                    style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold),
+                                  ),
                                 ),
                               ),
                               const Text(

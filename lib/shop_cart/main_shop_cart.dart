@@ -22,8 +22,7 @@ class _ShopCartState extends State<ShopCart> {
     bootstrapGridParameters(gutterSize: 0);
 
     return Scaffold(
-      //     backgroundColor: Color.fromRGBO(245, 246, 247, 1),
-
+      backgroundColor: const Color(0xfff5f6f7),
       body: Stack(
         children: [
           SingleChildScrollView(
@@ -36,7 +35,8 @@ class _ShopCartState extends State<ShopCart> {
                 //หัวข้อ
                 BootstrapRow(
                   children: <BootstrapCol>[
-                    BootstrapCol(sizes: 'col-12', child: namebar(context)),
+                    BootstrapCol(
+                        sizes: 'col-12', child: namebarshopcart(context)),
                   ],
                 ),
 

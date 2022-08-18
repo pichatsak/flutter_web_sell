@@ -4,10 +4,12 @@ Widget bin() {
   return Padding(
     padding: const EdgeInsets.all(7.0),
     child: Container(
-      height: 380,
+      height: 410,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: const Color.fromARGB(230, 239, 242, 247),
+        // color: const Color.fromARGB(230, 239, 242, 247),
+
+        color: const Color(0xffffffff),
       ),
       child: Padding(
         padding:
@@ -20,29 +22,34 @@ Widget bin() {
                 Text(
                   "สรุปคำสั่งซื้อ",
                   style: TextStyle(
-                      color: Colors.black,
+                      color: Color(0xff39404a),
                       fontSize: 17,
                       fontWeight: FontWeight.w600),
                 ),
               ],
             ),
-            const SizedBox(
-              height: 10,
+            const Padding(
+              padding: EdgeInsets.only(top: 15, bottom: 25),
+              child: SizedBox(
+                height: 0.1,
+                width: double.infinity,
+                child: ColoredBox(color: Colors.black12),
+              ),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
                 Text(
-                  "รายการทั้งหมด",
+                  "รายการทั้งหมด(5)",
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Color(0xff777777),
                     fontSize: 16,
                   ),
                 ),
                 Text(
                   "฿1,900.00",
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Color(0xff777777),
                     fontSize: 16,
                   ),
                 ),
@@ -57,14 +64,14 @@ Widget bin() {
                 Text(
                   "ค่าจัดส่ง",
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Color(0xff777777),
                     fontSize: 16,
                   ),
                 ),
                 Text(
                   "฿113.00",
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Color(0xff777777),
                     fontSize: 16,
                   ),
                 ),
@@ -80,9 +87,15 @@ Widget bin() {
                   height: 55,
                   width: 210,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(5),
-                      color: Colors.white),
-                  child: const Center(child: Text("โค็ดส่วนลด")),
+                    borderRadius: BorderRadius.circular(5),
+                    color: const Color(0xfff5f5f5),
+                    border: Border.all(color: Colors.black12),
+                  ),
+                  child: const Center(
+                      child: Text(
+                    "โค็ดส่วนลด",
+                    style: TextStyle(color: Color(0xffb0b0b0)),
+                  )),
                 ),
                 Container(
                   height: 55,
@@ -108,14 +121,14 @@ Widget bin() {
                 Text(
                   "ทั้งหมด",
                   style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 16,
-                  ),
+                      color: Color(0xff39404a),
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold),
                 ),
                 Text(
                   "฿2,013.00",
                   style: TextStyle(
-                      color: Color.fromARGB(255, 255, 115, 0),
+                      color: Color.fromARGB(255, 255, 94, 0),
                       fontSize: 17,
                       fontWeight: FontWeight.bold),
                 ),
